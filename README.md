@@ -22,7 +22,7 @@ Edit my data.yaml where you need to change /home/user/ to whatever path you have
 Copy my custom_yolov5s.yaml and put it in ./yolov5/models
 
 ## Train
-Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using GPU with --device 0 syntax
+Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using cuda device
 
 Change /home/user/ to whatever path you have on your local machine
 ```
