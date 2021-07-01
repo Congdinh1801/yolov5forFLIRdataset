@@ -18,6 +18,7 @@ python3 createFLIR.py
 
 ## Copy data.yaml and custom_yolov5s.yaml 
 Copy data.yaml and put it in ./yolov5 
+
 Copy custom_yolov5s.yaml and put it in ./yolov5/models
 
 ## Train
