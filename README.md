@@ -29,3 +29,9 @@ Change /home/user/ to whatever path you have on your local machine
 python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/data.yaml' --cfg /home/user/FLIRyolov5/yolov5/models/custom_yolov5s.yaml --weights '/home/user/yolov5/runs/train/yolov5s_results2/weights/best.pt' --name yolov5s_results  --cache --device 0 
 ```
 
+## Contact
+Feel free to contact me if you have any issue. Thanks
+
+## Reference
+Link to original YOLOv5 github https://github.com/ultralytics/yolov5
+
