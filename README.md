@@ -11,4 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Convert FLIR dataset to yolov5 format
-Run createFLIR to convert FLIR dataset to yolov5 format
+Run createFLIR.py to convert FLIR dataset to yolov5 format
+```
+python3 createFLIR.py
+```
