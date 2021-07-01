@@ -3,17 +3,17 @@
 ## Download FLIR dataset using the link below
 https://www.kaggle.com/deepnewbie/flir-thermal-images-dataset
 
+## Convert FLIR dataset to yolov5 format
+Copy my createFLIR.py to your current dataset folder and run it to convert FLIR dataset to yolov5 format
+```
+python3 createFLIR.py
+```
+
 ## Installation
 ```
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
-```
-
-## Convert FLIR dataset to yolov5 format
-Copy my createFLIR.py to your current dataset folder and run it to convert FLIR dataset to yolov5 format
-```
-python3 createFLIR.py
 ```
 
 ## Copy data.yaml and custom_yolov5s.yaml 
