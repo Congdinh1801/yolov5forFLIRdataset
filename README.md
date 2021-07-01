@@ -1,4 +1,4 @@
-# Tutorial to run yolov5 for FLIRdataset
+#  <div align="center">Tutorial to run yolov5 for FLIRdataset</div>
 Train yolov5 for FLIR dataset
 
 ## Installation
