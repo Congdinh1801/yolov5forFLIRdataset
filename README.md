@@ -30,7 +30,7 @@ python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/dat
 ```
 
 ## Contact
-Feel free to contact me if you have any issue. Thanks
+Feel free to contact me if you have any issue. 
 
 ## Reference
 Link to original YOLOv5 github https://github.com/ultralytics/yolov5
