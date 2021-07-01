@@ -11,15 +11,15 @@ pip install -r requirements.txt
 ```
 
 ## Convert FLIR dataset to yolov5 format
-Run createFLIR.py to convert FLIR dataset to yolov5 format
+Copy my createFLIR.py to your current dataset folder and run it to convert FLIR dataset to yolov5 format
 ```
 python3 createFLIR.py
 ```
 
 ## Copy data.yaml and custom_yolov5s.yaml 
-Edit data.yaml where you need to change /home/user/ to whatever path you have on your local machine and put it in ./yolov5 
+Edit my data.yaml where you need to change /home/user/ to whatever path you have on your local machine and put it in ./yolov5 
 
-Copy custom_yolov5s.yaml and put it in ./yolov5/models
+Copy my custom_yolov5s.yaml and put it in ./yolov5/models
 
 ## Train
 Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using GPU with --device 0 syntax
