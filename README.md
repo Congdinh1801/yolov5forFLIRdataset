@@ -33,5 +33,5 @@ python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/dat
 Feel free to contact me if you have any issue. 
 
 ## Reference
-Link to original YOLOv5 github https://github.com/ultralytics/yolov5
+Link to the original YOLOv5 github https://github.com/ultralytics/yolov5
 
