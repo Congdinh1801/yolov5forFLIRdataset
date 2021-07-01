@@ -1,4 +1,4 @@
-#  <div align="center">Tutorial to run YOLOv5 for FLIRdataset</div>
+#  <div align="center">Tutorial to train YOLOv5 for FLIRdataset</div>
 
 ## Installation
 git clone https://github.com/ultralytics/yolov5
