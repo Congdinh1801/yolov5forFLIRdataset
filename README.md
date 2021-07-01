@@ -17,7 +17,8 @@ python3 createFLIR.py
 ```
 
 ## Copy data.yaml and custom_yolov5s.yaml 
-Copy to data.yaml to ./yolov5 and custom_yolov5s.yaml to ./yolov5/models
+Copy data.yaml and put it in ./yolov5 
+Copy custom_yolov5s.yaml and put it in ./yolov5/models
 
 ## Train
 Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using GPU with --device 0 syntax
