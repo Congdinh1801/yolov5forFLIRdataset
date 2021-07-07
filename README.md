@@ -29,6 +29,8 @@ Change /home/user/ to whatever path you have on your local machine
 python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/data.yaml' --cfg /home/user/FLIRyolov5/yolov5/models/custom_yolov5s.yaml --weights '/home/user/yolov5/runs/train/yolov5s_results2/weights/best.pt' --name yolov5s_results  --cache --device 0 
 ```
 ## Performance
+Achieve mAP = 58%
+
 <p>
 <img width="850" src="results.png">
 </p>
