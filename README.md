@@ -22,7 +22,7 @@ Edit my data.yaml where you need to change /home/user/ to whatever path you have
 Copy my custom_yolov5s.yaml and put it in ./yolov5/models
 
 ## Train
-Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using cuda device
+Run the code below to start training YOLOv5 on FLIR dataset for 300 epochs using cuda device. If you don't have cuda installed, remove --device 0 option.
 
 Change /home/user/ to whatever path you have on your local machine
 ```
@@ -31,6 +31,21 @@ python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/dat
 ## Performance
 <p>
 <img width="850" src="results.png"></a>
+</p>
+
+## Inference
+Change /home/user/ to whatever path you have on your local machine
+
+Change "yolov5s_results" in --weights '/home/user/yolov5/runs/train/<i>yolov5s_results</i>/weights/best.pt' to your needed pretrained weight e.g. yolov5s_results, yolov5s_results1, yolov5s_results2, etc. Each time you train your model, there will be one additional yolov5s_results* folder. Pick the one you need.
+
+```
+python3 detect.py --weights '/home/user/yolov5/runs/train/yolov5s_results/weights/best.pt' --img 416 --conf 0.4 --source '/home/user/yolov5/video/images' --device 0
+```
+
+## Inference result examples
+I got 50.07 FPS using Quadro RTX 6000 96 GB multi GPUs. Below are some inference examples from the FLIR dataset:
+<p>
+<img width="850" src="infer2 999.png"></a>
 </p>
 
 ## Contact
