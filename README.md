@@ -30,7 +30,7 @@ python3 train.py --img 640 --batch 16 --epochs 300 --data '/home/user/yolov5/dat
 ```
 ## Performance
 <p>
-<img width="850" src="results.png"></a>
+<img width="850" src="results.png">
 </p>
 
 ## Inference
@@ -43,9 +43,10 @@ python3 detect.py --weights '/home/user/yolov5/runs/train/yolov5s_results/weight
 ```
 
 ## Inference result examples
-I got 50.07 FPS using Quadro RTX 6000 96 GB multi GPUs. Below are some inference examples from the FLIR dataset:
+I got 50.07 FPS for inference time using Quadro RTX 6000 96 GB multi GPUs. Below are some inference examples from the FLIR dataset:
 <p>
-<img width="850" src="infer2 999.png"></a>
+<img width="416" src="infer2 99.jpeg">
+<img width="416" src="infer2 999.jpeg">
 </p>
 
 ## Contact
